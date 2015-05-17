@@ -1,0 +1,83 @@
+body {
+	font-family: arial,sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #444;
+}
+header ul {
+	text-align: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+header li {
+	display: inline;
+	padding: 0px 0px 0px 6px;
+	font-size: 0.8em;
+}
+#app-icon {
+	background-position: -326px -52px;
+	background-image: url("images/i1.png");
+	background-size: 356px 144px;
+	opacity: 0.55;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+#sign-in {
+	padding: 6px;
+	background-color: #4683ea;
+	color: #fff;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border: none;
+	font-weight: bold;
+}
+#logo {
+	margin: 0 auto;
+	margin-top: 102px;
+	display: block;
+}
+#s-form {
+	text-align: center;
+}
+.search-button{
+	background-color: #eee;
+	padding: 6px;
+	color: #444;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border: 1px solid #ddd;
+	font-family: arial,sans-serif;
+	font-weight: bold;
+	font-size: 0.7em;
+}
+#search-field {
+	width: 500px;
+	height: 25px;
+	border: 1px solid #ccc;
+}
+footer {
+	background-color: #eee;
+	border-top: 1px solid #ddd;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	font-size: 0.8em;
+}
+#lfoot {
+	padding: 15px;
+	float: left;
+}
+#rfoot {
+	float: right;
+	padding: 15px;
+}
+#lfoot a, #rfoot a {
+	padding: 15px;
+}
